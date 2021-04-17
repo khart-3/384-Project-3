@@ -28,8 +28,8 @@ subplot(3,2,5);plot(x5);title('x5');
 subplot(3,2,6);plot(x6);title('x6');
 
 figure(2)
-subplot(2,1,1);hist(y_1,20);title('PDF - y1');
-subplot(2,1,2);hist(y_2,20);title('PDF - y2');
+subplot(2,1,1);hist(y_1,20);title('PDF - y1');%change 20 to 30 for better curve
+subplot(2,1,2);hist(y_2,20);title('PDF - y2');%change 20 to 30 for better curve
 
 figure(3)
 subplot(2,1,1);cdfplot(y_1);title('CDF - y1');
